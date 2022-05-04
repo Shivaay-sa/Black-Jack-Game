@@ -4,7 +4,7 @@ import random
 
 def generate_cards():
     """Generating random cards from the given deck"""
-    cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+    cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     card = random.choice(cards)
     return card
 
